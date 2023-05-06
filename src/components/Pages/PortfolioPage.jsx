@@ -112,7 +112,7 @@ export default function PortfolioPage() {
     <>
       <PageHeading
         title="Tài liệu bán hàng"
-        bgSrc="images/portfolio_hero_bg.jpeg"
+        bgSrc="images/portfolio_hero_bg_2.jpg"
         pageLinkText="Tài liệu bán hàng"
       />
       <Spacing lg="145" md="80" />

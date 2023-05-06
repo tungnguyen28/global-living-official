@@ -427,7 +427,7 @@ export default function Home() {
           title="Tham gia ngay để trở thành <br /> Đại lý/Cộng tác viên <br /> PHÂN PHỐI ĐỘC QUYỀN "
           btnText="Đăng ký ngay."
           btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
+          bgSrc="images/portfolio_hero_bg_2.jpg"
         />
       </Div>
       {/* End CTA Section */}
