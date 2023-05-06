@@ -12,23 +12,23 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
+      question: 'Trình tự và thủ tục cấp thẻ?',
+      answer: 'Bước 1:  Nhà đầu tư kí hợp đồng với AZG/GL.'
+    },
+    {
+      question: 'Qui trình thanh toán như thế nào?',
       answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
+      question: 'Danh mục hồ sơ chuẩn bị nộp xin cấp thẻ cư trú ?',
       answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
     },
     {
-      question: 'How to provide project details and payments?',
+      question: 'Trường hợp KH muốn lăn tay tại Hungary có cần bổ sung thêm hồ sơ làm visa không ??',
       answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
-    },
-    {
-      question: 'Do you makes custom logo, icon etc?',
+      question: 'Đặc quyền chỉ có tại Global Living?',
       answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
     },
   ]

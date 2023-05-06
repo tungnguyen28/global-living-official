@@ -1,37 +1,37 @@
 import React, { useEffect } from 'react'
 import { pageTitle } from '../../helper'
 import Cta from '../Cta'
-import PageHeading from '../PageHeading'
+// import PageHeading from '../PageHeading'
 import Div from '../Div'
 import Spacing from '../Spacing'
 import SocialWidget from '../Widget/SocialWidget'
 
 export default function TeamDetails() {
-  pageTitle('Team Member');
+  pageTitle('Quỹ căn');
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
     <>
-      <PageHeading 
+      {/* <PageHeading 
         title='Team Details'
         bgSrc='/images/team_hero_bg.jpeg'
         pageLinkText='Team Details'
-      />
+      /> */}
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img src="/images/member_details_1.jpeg" alt="Member" className="w-100" />
+              <img src="/images/quycan_1.jpg" alt="Member" className="w-100" />
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title">Melon Bulgery</h2>
+              <h2 className="cs-section_title">Budavári Palota</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Product Designer</h3>
+              <h3 className="cs-section_subtitle">1014 Budapest, Szent György tér 2r</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
@@ -48,7 +48,7 @@ export default function TeamDetails() {
       <Div className="container">
         <Cta 
           title='Let’s disscuse make <br />something <i>cool</i> together' 
-          btnText='Apply For Meeting' 
+          btnText='Nhận báo giá' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
         />

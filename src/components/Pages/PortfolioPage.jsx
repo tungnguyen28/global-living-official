@@ -87,19 +87,19 @@ export default function PortfolioPage() {
   ];
   const categoryMenu = [
     {
-      title: 'Web Design',
+      title: 'Tư liệu truyền thông',
       category: 'web_design',
     },
     {
-      title: 'UI/UX Design',
+      title: 'Tài liệu bán hàng',
       category: 'ui_ux_design',
     },
     {
-      title: 'Mobile Apps',
+      title: 'Thông tin chương trình',
       category: 'mobile_apps',
     },
     {
-      title: 'Logo Design',
+      title: 'Thiết kế',
       category: 'logo_design',
     },
   ];
@@ -183,7 +183,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="agency@arino.com"
+        title="info@globallving-group.com"
         bgSrc="/images/cta_bg_2.jpeg"
         variant="rounded-0"
       />

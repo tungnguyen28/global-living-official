@@ -32,7 +32,7 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Service related"
+                    btnText="Quy trình/ Quy định"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -42,7 +42,7 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Pricing"
+                    btnText="Chính sách"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -52,7 +52,7 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Project delivery"
+                    btnText="Thủ tục"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
