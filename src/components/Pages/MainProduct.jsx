@@ -31,7 +31,7 @@ export default function MainProduct() {
     },
     {
       title: 'Dự án <br />3',
-      imgUrl: '/images/slider_2.jpeg',
+      imgUrl: '/images/slider_5.jpeg',
       href: '/case-study/case-study-details',
     },
     {
@@ -41,7 +41,7 @@ export default function MainProduct() {
     },
     {
       title: 'Dự án <br />5',
-      imgUrl: '/images/slider_5.jpeg',
+      imgUrl: '/images/slider_2.jpeg',
       href: '/case-study/case-study-details',
     },
   ];

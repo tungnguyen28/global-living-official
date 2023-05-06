@@ -1,63 +1,59 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 // import Card from '../Card';
-import FunFact from '../FunFact';
-import Hero from '../Hero';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import Spacing from '../Spacing';
-import Cta from '../Cta';
+import FunFact from "../FunFact";
+import Hero from "../Hero";
+import Div from "../Div";
+import SectionHeading from "../SectionHeading";
+import Spacing from "../Spacing";
+import Cta from "../Cta";
 // import LogoList from '../LogoList';
-import MovingText from '../MovingText';
-import PortfolioSlider from '../Slider/PortfolioSlider';
-import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
-import TeamSlider from '../Slider/TeamSlider';
-import VideoModal from '../VideoModal';
+import MovingText from "../MovingText";
+import PortfolioSlider from "../Slider/PortfolioSlider";
+import PostSlider from "../Slider/PostSlider";
+import TestimonialSlider from "../Slider/TestimonialSlider";
+import TeamSlider from "../Slider/TeamSlider";
+import VideoModal from "../VideoModal";
 // import TimelineSlider from '../Slider/TimelineSlider';
-import { pageTitle } from '../../helper';
-import Hero3 from '../Hero/Hero3';
-import MovingLogo from '../MovingLogo';
+import { pageTitle } from "../../helper";
+import Hero3 from "../Hero/Hero3";
+import MovingLogo from "../MovingLogo";
 
 export default function Home() {
-  pageTitle('Home');
+  pageTitle("Home");
 
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Fanpage',
-      links: '/',
+      name: "Fanpage",
+      links: "/",
     },
     {
-      name: 'Youtube',
-      links: '/',
+      name: "Youtube",
+      links: "/",
     },
   ];
 
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Chi phí làm thẻ',
-      factNumber: '1.6',
-      unit: 'Tỷ VND',
-
+      title: "Chi phí làm thẻ",
+      factNumber: "1.6",
+      unit: "Tỷ VND",
     },
     {
-      title: 'Chi phí đầu tư tối thiểu',
-      factNumber: '4.6',
-      unit: 'Tỷ VND',
-
+      title: "Chi phí đầu tư tối thiểu",
+      factNumber: "4.6",
+      unit: "Tỷ VND",
     },
     {
-      title: 'Thời gian dự kiến',
-      factNumber: '03',
-      unit: 'Tháng',
-
+      title: "Thời gian dự kiến",
+      factNumber: "03",
+      unit: "Tháng",
     },
     {
-      title: '',
-      factNumber: '',
-      unit: 'Xem thêm >>',
-
+      title: "",
+      factNumber: "",
+      unit: "Xem thêm >>",
     },
   ];
 
@@ -69,14 +65,15 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
 
-
-<Hero3
-              title="Global <br />Living"
-              btnLink="contact"
-              btnText={`Xem chi tiết chương trình`}
-              socialLinksHeading="Follow Us"
-              heroSocialLinks={heroSocialLinks}
-              bgImageUrl="./images/gl-images/budapest/home-1.jpg"/>
+      <Hero3
+        title="Global <br />Living"
+        btnLink="contact"
+        btnText={`Xem chi tiết chương trình`}
+        socialLinksHeading="Follow Us"
+        heroSocialLinks={heroSocialLinks}
+        scrollDownId="#service"
+        bgImageUrl="./images/gl-images/budapest/home-1.jpg"
+      />
 
       {/* End Hero Section */}
 
@@ -94,33 +91,33 @@ export default function Home() {
 
       {/* End FunFact Section */}
 
-
-
-
-
       {/* Start About Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
-            <SectionHeading
-              title="Định vị thương hiệu"
-              subtitle=""
-            >
+            <SectionHeading title="Định vị thương hiệu" subtitle="">
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Global Living là thương hiệu hàng đầu tại Việt Nam trong lĩnh vực tư vấn và phát triển bất động sản cao cấp. Với uy tín và kinh nghiệm, chúng tôi đã và đang mang tới cho khách hàng những giải pháp đầu tư bất động sản tối ưu tại cả trong và ngoài nước, kết hợp với các dịch vụ hỗ trợ định cư độc đáo, giúp khách hàng tiếp cận những đặc quyền của công dân toàn cầu. Chúng tôi luôn cam kết mang đến sự hài lòng và thành công cho khách hàng trong mỗi giao dịch và dự án.
+                Global Living là thương hiệu hàng đầu tại Việt Nam trong lĩnh
+                vực tư vấn và phát triển bất động sản cao cấp. Với uy tín và
+                kinh nghiệm, chúng tôi đã và đang mang tới cho khách hàng những
+                giải pháp đầu tư bất động sản tối ưu tại cả trong và ngoài nước,
+                kết hợp với các dịch vụ hỗ trợ định cư độc đáo, giúp khách hàng
+                tiếp cận những đặc quyền của công dân toàn cầu. Chúng tôi luôn
+                cam kết mang đến sự hài lòng và thành công cho khách hàng trong
+                mỗi giao dịch và dự án.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
               <Spacing lg="25" md="40" />
             </SectionHeading>
           </Div>
-          <Div className="col-lg-5 offset-xl-2" >
+          <Div className="col-lg-5 offset-xl-2">
             <img
               src="./images/about_img_1.jpeg"
               alt="About"
-              className="w-100 cs-radius_15"
+              className="w-100 cs-radius_15 gs"
             />
             <Spacing lg="25" md="25" />
           </Div>
@@ -128,7 +125,7 @@ export default function Home() {
             <img
               src="./images/about_img_2.jpeg"
               alt="About"
-              className="w-100 cs-radius_15"
+              className="w-100 cs-radius_15 gs"
             />
             <Spacing lg="25" md="25" />
           </Div>
@@ -136,7 +133,7 @@ export default function Home() {
             <img
               src="./images/about_img_3.jpeg"
               alt="About"
-              className="w-100 cs-radius_15"
+              className="w-100 cs-radius_15 gs"
             />
             <Spacing lg="25" md="25" />
           </Div>
@@ -145,16 +142,15 @@ export default function Home() {
       <Spacing lg="75" md="55" />
       {/* End About Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-        btnText="Get a Quote"
-        btnLink="/contact"
+        title="Đầu tư Bất động sản<br/>Nhận thẻ cư trú Hungary"
+        subtitle="Tìm hiểu những đặc quyền chỉ có ở Đầu tư Bất Động Sản Hungary"
+        btnText="Xem chi tiết chương trình"
+        btnLink="/main-product"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
+        bgImageUrl="/images/hero_bg_5.jpeg"
       />
-
 
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
@@ -173,13 +169,17 @@ export default function Home() {
             <Spacing lg="0" md="40" />
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
-            <SectionHeading
-              title="Tầm nhìn"
-              subtitle=""
-            >
+            <SectionHeading title="Tầm nhìn" subtitle="">
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Global Living định hướng trở thành đơn vị tiên phong trong lĩnh vực đầu tư và phát triển bất động sản cao cấp. Với sự tận tâm và chuyên nghiệp, chúng tôi luôn đặt mục tiêu mang đến cho khách hàng những cơ hội đầu tư đắt giá và tấm thẻ định cư quyền lực, tại những quốc gia mà sự tiến bộ và tiềm năng phát triển còn rất lớn. Chúng tôi luôn nỗ lực không ngừng để giữ vững được vị thế trong tâm trí khách hàng là một đơn vị uy tín với chất lượng dịch vụ hàng đầu.
+                Global Living định hướng trở thành đơn vị tiên phong trong lĩnh
+                vực đầu tư và phát triển bất động sản cao cấp. Với sự tận tâm và
+                chuyên nghiệp, chúng tôi luôn đặt mục tiêu mang đến cho khách
+                hàng những cơ hội đầu tư đắt giá và tấm thẻ định cư quyền lực,
+                tại những quốc gia mà sự tiến bộ và tiềm năng phát triển còn rất
+                lớn. Chúng tôi luôn nỗ lực không ngừng để giữ vững được vị thế
+                trong tâm trí khách hàng là một đơn vị uy tín với chất lượng
+                dịch vụ hàng đầu.
               </p>
               <Spacing lg="15" md="15" />
 
@@ -192,19 +192,25 @@ export default function Home() {
       </Div>
       {/* End Why Choose Section */}
 
-
       {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">
         <Div className="row">
-                    <Div className="col-xl-5 offset-xl-1 col-lg-6">
-            <SectionHeading
-              title="Sứ mệnh"
-              subtitle=""
-            >
+          <Div className="col-xl-5 offset-xl-1 col-lg-6">
+            <SectionHeading title="Sứ mệnh" subtitle="">
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              Sứ mệnh của Global Living là đồng hành cùng khách hàng qua từng bước trên hành trình đầu tư bất động sản cao cấp tại các quốc gia phát triển. Không chỉ dừng lại ở những sản phẩm đầu tư quốc tế với chất lượng vượt trội, chúng tôi còn mong muốn hỗ trợ khách hàng sở hữu tấm thẻ định cư quý giá để tận hưởng những lợi ích của một công dân toàn cầu. Giúp cho khách hàng hiện thực hóa ước mơ sống và làm việc tại một môi trường an toàn, tiện nghi với chất lượng cuộc sống đẳng cấp chính là nhiệm vụ của Global Living. Chúng tôi tự hào là đối tác đáng tin cậy của khách hàng, và luôn nỗ lực để mang đến cho họ sự hài lòng và những trải nghiệm tốt nhất trên con đường thành công và thịnh vượng.
+                Sứ mệnh của Global Living là đồng hành cùng khách hàng qua từng
+                bước trên hành trình đầu tư bất động sản cao cấp tại các quốc
+                gia phát triển. Không chỉ dừng lại ở những sản phẩm đầu tư quốc
+                tế với chất lượng vượt trội, chúng tôi còn mong muốn hỗ trợ
+                khách hàng sở hữu tấm thẻ định cư quý giá để tận hưởng những lợi
+                ích của một công dân toàn cầu. Giúp cho khách hàng hiện thực hóa
+                ước mơ sống và làm việc tại một môi trường an toàn, tiện nghi
+                với chất lượng cuộc sống đẳng cấp chính là nhiệm vụ của Global
+                Living. Chúng tôi tự hào là đối tác đáng tin cậy của khách hàng,
+                và luôn nỗ lực để mang đến cho họ sự hài lòng và những trải
+                nghiệm tốt nhất trên con đường thành công và thịnh vượng.
               </p>
               <Spacing lg="15" md="15" />
 
@@ -225,7 +231,6 @@ export default function Home() {
             </Div>
             <Spacing lg="0" md="40" />
           </Div>
-
         </Div>
       </Div>
       {/* End Why Choose Section */}
@@ -246,11 +251,10 @@ export default function Home() {
         <Spacing lg="70" md="70" />
         <VideoModal
           videoSrc="https://www.youtube.com/watch?v=Yn2VYwTvPSQ"
-          bgUrl="/images/video_bg.jpeg"
+          bgUrl="/images/video_bg_3.jpeg"
         />
       </Div>
       {/* End Video Block Section */}
-
 
       {/* Start Service Section */}
       {/* <Spacing lg="150" md="80" />
@@ -315,12 +319,6 @@ export default function Home() {
       </Div> */}
       {/* End Service Section */}
 
-
-
-
-
-
-
       {/* Start Awards Section */}
       {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_2">
@@ -345,8 +343,6 @@ export default function Home() {
       </Div> */}
       {/* End Awards Section */}
 
-
-
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
@@ -361,10 +357,6 @@ export default function Home() {
         <PortfolioSlider />
       </Div>
       {/* End Portfolio Section */}
-
-
-
-
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
@@ -421,7 +413,6 @@ export default function Home() {
       <MovingLogo text="" />
       <Spacing lg="105" md="70" />
       {/* End MovingLogo Section */}
-
 
       {/* Start LogoList Section */}
       {/* <Div className="container">

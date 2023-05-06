@@ -826,6 +826,23 @@ label {
   transform: perspective(600px) translate3d(0, 0, 0);
 }
 
+// .gs{
+//   filter: grayscale(100%);
+//   -webkit-filter: grayscale(100%);
+//   -moz-filter: grayscale(100%);
+//     transition: all 0.4s;
+//   -webkit-transition: all 0.4s;
+//   -moz-transition: all 0.2s;
+// }
+// .gs:hover {
+//   filter: grayscale(0%);
+//   -webkit-filter: grayscale(0%);
+//   -moz-filter: grayscale(0%);
+//   // transform: scale(1);
+//   // -webkit-transform: scale(1.1);
+//   // -moz-transform: scale(1.1);
+// }
+
 @keyframes particalAnimation {
   0%,
   100% {
@@ -852,6 +869,8 @@ label {
     transform: translate(0px, 0px);
   }
 }
+
+
 
 @keyframes animo-x {
   50% {

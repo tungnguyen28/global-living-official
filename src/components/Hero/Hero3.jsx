@@ -12,6 +12,7 @@ export default function  Hero3({
   btnLink,
   btnText,
   bgImageUrl,
+  scrollDownId,
 }) {
   return (
     <Div className="cs-hero cs-style1 cs-type2" id="home">
@@ -26,8 +27,13 @@ export default function  Hero3({
               <Button btnLink={btnLink} btnText={btnText} />
             </Div>
           </Div>
+          
         )}
+        
       </WaterWave>
+            <a href='{scrollDownId}' className="cs-down_btn">
+        .
+      </a>
       <VerticalLinks
         data={heroSocialLinks}
         title={socialLinksHeading}
