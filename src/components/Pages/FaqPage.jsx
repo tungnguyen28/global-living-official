@@ -16,7 +16,7 @@ export default function FaqPage() {
   return (
     <>
       <PageHeading
-        title="Frequently Asked Questions"
+        title="FAQ - Câu hỏi thường gặp"
         bgSrc="/images/about_hero_bg.jpeg"
         pageLinkText="FAQ"
       />
