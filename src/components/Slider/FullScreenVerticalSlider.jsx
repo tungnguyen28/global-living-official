@@ -1,7 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Pagination, Navigation } from 'swiper';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import parse from 'html-react-parser';
 import 'swiper/css';

@@ -18,7 +18,7 @@ import MarketingAgencyHome from './components/Pages/MarketingAgencyHome';
 import ShowcasePortfolioHome from './components/Pages/ShowcasePortfolioHome';
 import MainProduct from './components/Pages/MainProduct';
 import Layout from './components/Layout';
-import Product from './components/Pages/Product';
+// import Product from './components/Pages/Product';
 import FaqPage from './components/Pages/FaqPage';
 
 function App() {

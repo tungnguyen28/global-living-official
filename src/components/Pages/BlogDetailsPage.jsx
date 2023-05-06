@@ -17,11 +17,11 @@ export default function BlogDetailsPage() {
   return (
     <>
     {/* Start Page Heading Section */}
-      {/* <PageHeading 
+      <PageHeading 
         title='Blog Single'
         bgSrc='/images/blog_details_hero_bg.jpeg'
         pageLinkText={params.blogDetailsId}
-      /> */}
+      />
       {/* End Page Heading Section */}
 
       {/* Start Blog Details */}

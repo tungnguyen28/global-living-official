@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
-import Card from '../Card';
+// import Card from '../Card';
 import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Cta from '../Cta';
-import LogoList from '../LogoList';
+// import LogoList from '../LogoList';
 import MovingText from '../MovingText';
 import PortfolioSlider from '../Slider/PortfolioSlider';
 import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
 import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
-import TimelineSlider from '../Slider/TimelineSlider';
+// import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 import Hero3 from '../Hero/Hero3';
 import MovingLogo from '../MovingLogo';
@@ -68,16 +68,7 @@ export default function Home() {
   return (
     <>
       {/* Start Hero Section */}
-      {/* <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
-        btnText="Get a Quote"
-        btnLink="/contact"
-        scrollDownId="#service"
-        socialLinksHeading="Follow Us"
-        heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
-      /> */}
+
 
 <Hero3
               title="Global <br />Living"
@@ -153,6 +144,16 @@ export default function Home() {
       </Div>
       <Spacing lg="75" md="55" />
       {/* End About Section */}
+      <Hero
+        title="Creativity In <br/>Our Blood Line"
+        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        btnText="Get a Quote"
+        btnLink="/contact"
+        scrollDownId="#service"
+        socialLinksHeading="Follow Us"
+        heroSocialLinks={heroSocialLinks}
+        bgImageUrl="/images/hero_bg.jpeg"
+      />
 
 
       {/* Start Why Choose Section */}
