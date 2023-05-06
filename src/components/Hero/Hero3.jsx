@@ -5,7 +5,7 @@ import Div from '../Div';
 import Button from '../Button';
 import VerticalLinks from '../VerticalLinks';
 
-export default function Hero3({
+export default function  Hero3({
   title,
   socialLinksHeading,
   heroSocialLinks,
